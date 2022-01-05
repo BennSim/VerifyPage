@@ -53,8 +53,17 @@ npm run watch
 ```
 
 ## Load extension to chrome
-Go to chrome://extensions and enable 'Developer Mode' on the upper right corner.
-Now you can load `dist` directory of our local extension, after you completed the build process.
+Open Chrome.
+
+Enter 'chrome://extensions' in the URL.
+
+Enable Developer Mode in the top right hand corner of the screen.
+
+If the Dist folder has been compressed or zipped, extract it.
+
+Click the Load unpacked button in the top left hand corner of the screen, then select the extracted Dist folder from the previous step.
+
+The VerifyPage extension should now be visible and enabled in the extensions list.
 
 You can also load a pre-build version of the extension.
 
